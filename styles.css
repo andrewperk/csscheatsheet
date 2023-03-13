@@ -1,0 +1,43 @@
+body {
+  background-color: antiquewhite;
+  font-family: monospace, serif;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header,
+main,
+table {
+  margin: 0 auto;
+  width: 70%;
+}
+
+main h2 {
+  text-align: center;
+}
+
+table {
+  border: 2px solid cadetblue;
+}
+
+th {
+  background-color: cadetblue;
+}
+
+tr td {
+  padding: 0.5rem;
+}
+
+tr td:nth-child(1) {
+  background-color: darkkhaki;
+}
+
+tr.last-row td {
+  border: none;
+}
+
+td {
+  border-bottom: 2px solid cadetblue;
+}
